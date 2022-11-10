@@ -18,9 +18,9 @@ const postTemplate = {
   author: 'author',
   text: lorem.generateParagraphs(7),
   highlights: [
-    lorem.generateWords(3),
-    lorem.generateWords(3),
-    lorem.generateWords(3),
+    {key: 1, text : lorem.generateWords(3)},
+    {key : 2, text : lorem.generateWords(3)},
+    {key : 3, text : lorem.generateWords(3)}
   ],
   image: { link: 'link', alt: 'alt' },
 };
@@ -33,9 +33,9 @@ const samplePosts = [
     author: 'Bobby Nest',
     text: lorem.generateParagraphs(7),
     highlights: [
-      lorem.generateWords(3),
-      lorem.generateWords(3),
-      lorem.generateWords(3),
+      {key: 1, text : lorem.generateWords(3)},
+    {key : 2, text : lorem.generateWords(3)},
+    {key : 3, text : lorem.generateWords(3)}
     ],
     image: {
       link:
@@ -50,9 +50,9 @@ const samplePosts = [
     author: 'Lucy Wing',
     text: lorem.generateParagraphs(7),
     highlights: [
-      lorem.generateWords(3),
-      lorem.generateWords(3),
-      lorem.generateWords(3),
+      {key: 1, text : lorem.generateWords(3)},
+    {key : 2, text : lorem.generateWords(3)},
+    {key : 3, text : lorem.generateWords(3)}
     ],
     image: {
       link: 'https://i.redd.it/u6xrjmzbrf321.png',
@@ -66,9 +66,9 @@ const samplePosts = [
     author: 'Mohammad Feather',
     text: lorem.generateParagraphs(7),
     highlights: [
-      lorem.generateWords(3),
-      lorem.generateWords(3),
-      lorem.generateWords(3),
+      {key: 1, text : lorem.generateWords(3)},
+    {key : 2, text : lorem.generateWords(3)},
+    {key : 3, text : lorem.generateWords(3)}
     ],
     image: {
       link:
